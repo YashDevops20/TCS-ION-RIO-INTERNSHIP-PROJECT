@@ -21,9 +21,7 @@ This project is part of the **TCS ION RIO Internship**, focused on building and 
 - **Backend:** Spring Boot, Java
 - **Database:** MySQL / PostgreSQL
 - **CI/CD:** Jenkins, GitHub Actions
-- **Containerization:** Docker, Kubernetes
-- **Monitoring:** Prometheus, Grafana
-- **Logging:** Splunk
+- **Containerization:** Docker
 - **Version Control:** Git, GitHub
 
 ## Installation & Setup
