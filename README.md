@@ -1,5 +1,12 @@
 # TCS ION RIO Internship Project
 
+## Screenshots
+
+### To-Do Application Interface
+![TCS-ION Project Planner](screenshots/ToDo-Screenshot.png)
+
+### Jenkins CI/CD Pipeline
+![Jenkins Pipeline](screenshots/CICD-Pipeline.png)
 ## Project Overview
 This project is part of the **TCS ION RIO Internship**, focused on building and automating a **Spring Boot-based To-Do Application** with a complete CI/CD pipeline.
 
@@ -43,7 +50,34 @@ Ensure you have the following installed:
    ```sh
    mvn spring-boot:run
    ```
-4. Access the API at `http://localhost:8081`
+4. Access the API at `http://localhost:8080`
+
+## CI/CD Pipeline
+- **Build Automation:** Jenkins Pipeline / GitHub Actions
+- **Docker Build & Push:** Docker Hub / JFrog Artifactory
+- **Kubernetes Deployment:** Helm charts for cluster setup
+
+## Monitoring & Logging
+- **Metrics:** Prometheus scrapes application metrics
+- **Visualization:** Grafana dashboards
+- **Logging:** Centralized logging via Splunk
+
+## Contribution
+Feel free to fork the repository, raise issues, and contribute via pull requests.
+
+## License
+This project is licensed under [MIT License](LICENSE).
+
+```sh
+# Build the project
+mvn clean install
+
+# Run the application
+mvn spring-boot:run
+
+# Access the API at
+http://localhost:8080
+```
 
 ## CI/CD Pipeline
 - **Build Automation:** Jenkins Pipeline / GitHub Actions
