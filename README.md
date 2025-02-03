@@ -1,6 +1,6 @@
 # TCS ION RIO Internship Project
 
-## Screenshots
+
 
 ### To-Do Application Interface
 ![TCS-ION Project Planner](screenshots/ToDo-Screenshot.png)
@@ -15,8 +15,7 @@ This project is part of the **TCS ION RIO Internship**, focused on building and 
 - **REST API for To-Do Management**
 - **CI/CD Pipeline with Jenkins & GitHub Actions**
 - **Dockerized Deployment**
-- **Kubernetes Integration**
-- **Monitoring with Prometheus & Grafana**
+
 
 ## Tech Stack
 - **Backend:** Spring Boot, Java
@@ -33,8 +32,7 @@ Ensure you have the following installed:
 - Java 17+
 - Maven
 - Docker & Docker Compose
-- Kubernetes (Minikube, EKS, or any cluster)
-- Jenkins (if using self-hosted CI/CD)
+- Jenkins 
 
 ### Steps to Run Locally
 1. Clone the repository:
@@ -50,17 +48,12 @@ Ensure you have the following installed:
    ```sh
    mvn spring-boot:run
    ```
-4. Access the API at `http://localhost:8080`
+4. Access the API at `http://localhost:8081`
 
 ## CI/CD Pipeline
 - **Build Automation:** Jenkins Pipeline / GitHub Actions
-- **Docker Build & Push:** Docker Hub / JFrog Artifactory
-- **Kubernetes Deployment:** Helm charts for cluster setup
+- **Docker Build & Push:** Docker Hub 
 
-## Monitoring & Logging
-- **Metrics:** Prometheus scrapes application metrics
-- **Visualization:** Grafana dashboards
-- **Logging:** Centralized logging via Splunk
 
 ## Contribution
 Feel free to fork the repository, raise issues, and contribute via pull requests.
